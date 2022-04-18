@@ -3,6 +3,7 @@ import requests
 
 def get_pokemon_info(name):
     print("Getting Pokemon info...", end=''),
+    
 
     url = "https://pokeapi.co/api/v2/pokemon/" + name 
     resp_msg = requests.get(url)
